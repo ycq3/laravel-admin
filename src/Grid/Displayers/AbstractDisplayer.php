@@ -85,7 +85,7 @@ abstract class AbstractDisplayer
      */
     public function getResource()
     {
-        return admin_url($this->grid->resource());
+        return url($this->grid->resource());
     }
 
     /**
